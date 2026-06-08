@@ -113,8 +113,8 @@ function SecondaryButton({ children }: { children: React.ReactNode }) {
 
 export default function Home() {
   return (
-    <main className="min-h-screen overflow-hidden">
-      <header className="sticky top-0 z-50 border-b border-line/80 bg-white/90 backdrop-blur">
+    <main className="min-h-screen overflow-hidden pt-[73px]">
+      <header className="fixed left-0 top-0 z-50 w-full border-b border-line/80 bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
           <a href="#" className="flex items-center gap-3" aria-label="AI Career Lab">
             <span className="grid h-9 w-9 place-items-center rounded-md bg-ink text-sm font-bold text-white">
